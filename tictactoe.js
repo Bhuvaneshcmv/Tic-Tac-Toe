@@ -35,13 +35,13 @@ var g_dy = 0;
 var g_AnimationCompleted = false;
 var g_IsSecondDiagonal = false;
 var g_ResetImg = new Image();
-var g_ResetBtn = new c_Button(10, 10, 50, 50, g_ResetImg);
+var g_ResetBtn = new c_Button(50, 10, 50, 50, g_ResetImg);
 var g_XScore = 0;
 var g_OScore = 0;
 var g_XColor = 'Red';
 var g_OColor = 'blue';
 var g_RandomCell = null;
-g_ResetImg.src = 'reset.png';
+g_ResetImg.src = "Reset.png";
 
 function f_ClearCanvas()
 {
